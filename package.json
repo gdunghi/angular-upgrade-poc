@@ -1,0 +1,31 @@
+{
+  "name": "angular-upgrade-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "test": "./node_modules/.bin/karma start",
+    "start": "./node_modules/.bin/http-server -p 3000  -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/router": "^0.2.0",
+    "angular": "1.5.8",
+    "angular-animate": "1.5.8",
+    "angular-cookies": "1.5.8",
+    "angular-sanitize": "1.5.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.5.6",
+    "http-server": "^0.9.0",
+    "jasmine": "2.5.2",
+    "jshint": "^2.9.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.6",
+    "npm-run-all": "^1.5.1"
+  }
+}
